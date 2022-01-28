@@ -1,0 +1,40 @@
+h1 {
+    background-color:rgb(255, 111, 15);
+    font-size: 80px;
+    text-align: center;
+    font-family:monospace;
+    color:rgb(255, 251, 0);
+}
+
+h2 {
+    border: 6px #fbff00 dashed;
+}
+
+h3 {
+    border: 6px #fbff00 dashed;
+}
+
+body{
+    background-color: black;
+}
+
+#real-alert {
+    padding: 30px;  /*space between elements */
+    text-align: center;
+    color:red;
+    font-size: 90px;
+    font: inherit; 
+}
+
+#test-only{
+    padding: 30px;  /*space between elements */
+    text-align: center;  /*center align text*/
+    color: blue;  /*font color */
+    font-size: 60 px; /*font size */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.missile-link {   /*stack elements */
+    display:block;
+    font-size: 60px;
+}
