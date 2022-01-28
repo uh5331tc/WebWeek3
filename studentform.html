@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student feedback</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="feedback-styles.css">
+</head>
+<body class="m-3">
+
+<div class="jumbotron">
+    <h1>Please provide feedback. You may do so anonymously. Thank you!</h1>  <!--GIANT HEADER-->
+</div>
+
+<div class="row">  <!--ROW-->
+
+
+<div class="col-md-5">
+    <div class="mx-5">
+    <p>
+    As a student, your feedback is important to us. <br> <!--BR line break-->
+    Please include name and email if you'd like a response. 
+    </p>
+    </div>    
+</div>
+
+    <div class="col-md-7">
+    <form class="ml-5 mr-5"> <!--MARGING "L" "R" OR MX-5 'AXIS MARGIN'-->
+    <div>
+        <label for="name">Name</label> <input id="name" class="form-control" required type="text"><br>
+        <label for="email">Email</label> <input id="email" type="email" class="form-control" required type="email"> <br>
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" class="form-control" required></textarea><br>
+    </div>
+
+    <div>
+        <br>
+        <p class="form-text"> Are you a current student?</p>
+    </div>
+
+    <div class="form-check">  <!--DIV is a block so items will STACK-->
+        <input name="current-student" id="yes" type="radio" checked> 
+        <label for="yes">Yes</label>
+    </div>
+
+    <div class="form-check">
+        <input name="current-student" id="no" type="radio"> 
+        <label for="no">No</label>
+    </div>
+
+    <div class="form-check"></div>
+        <input type="submit" class="btn btn-outline-success mt-10"></button>
+    </div>
+
+</div> <!--END OF 2ND COLUMN-->
+
+
+</form>
+</div>  <!--   END OF ROW  -->
+
+
+
+</body>
+</html>

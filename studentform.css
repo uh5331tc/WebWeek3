@@ -1,0 +1,18 @@
+.jumbotron{
+    background-color: rgb(208, 165, 248);
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: lightblue;
+}
+
+body {
+    font-size:larger;
+    font-family: cursive;
+    color: rgb(255, 139, 139)
+}
+
+a {
+    color: rgb(143, 255, 143)
+}
