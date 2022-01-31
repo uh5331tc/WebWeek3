@@ -1,10 +1,13 @@
 .jumbotron{
     background-color: rgb(255, 108, 108); /*JUMBOTRON COLOR*/
+    border-radius: 60px;
+    border: rgb(255, 0, 212) inset;
+
 }
 
 body {
     margin:auto;
-    background-image: linear-gradient(rgba(255, 90, 25, 0.945),rgba(247, 243, 38, 0.863) );  /*BACKGROUND COLOR GRADIANT*/
+    background-image: linear-gradient(rgba(247, 243, 38, 0.863),rgba(255, 90, 25, 0.945) );  /*BACKGROUND COLOR GRADIANT*/
     font-family: 'Lora', serif;
     font-size:larger;
     color: rgb(250, 24, 24)
@@ -18,36 +21,39 @@ h1 {
 }
 
 h2 {  /*Header 2 formating*/
+    margin-left: -45px;
     font-size: 30px;
     color: rgb(250, 50, 50);
     text-align: center;
 }
 
 .section-header{
-    margin-left: -45px; /*adjust header to align with rest of text*/
     color: #1f097e;
-    border: 6px dotted  rgba(210, 180, 140, 0.658);  /*add border to section headers*/
+    border: 6px rgb(255, 0, 212) inset;  /*add border to section headers*/
     background-color: rgba(136, 203, 241);
     padding: 5px;
+    border-radius: 25px;
     border-image: url(border.png) 30% round;  /*ROUNDED CORNERS*/
 }
 
 .sections{
-    border: 4px dotted  rgba(210, 180, 140, 0.658);  /*add border to section headers*/
+    border: 4px rgb(255, 0, 212) inset;  /*add border to section headers*/
+    border-radius: 25px;
     background-color: rgba(255, 255, 240, 0.534);
     padding: 5px;
     text-align: center;
 }
 
 .form-text{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     border-image: fill;
-    border:4px rgb(255, 0, 212) dotted;
-    background-color: rgba(248, 192, 255, 0.596);
+    border:4px rgb(255, 0, 212) inset;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 240, 0.534);
 }
 
 .center{
-    width: 80%;  /*WIDTH OF ELEMENTS ON THE PAGE*/
+    width: 80%;  /*WIDTH OF ELEMENTS ON THE PAGE */
 
 }
