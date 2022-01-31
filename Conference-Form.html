@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lan="en"> <!--English-->
+<head>
+    <meta charset="UTF-8">  <!--8 common laungages-->
+    <title>Conference Registration Form </title>  <!--bootstrap link below-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet"> <!--imported fonts-->
+    <link rel="stylesheet" href="Conference.css">  <!-- My style sheet I made-->
+</head>
+<body class="MX-5"> <!--Auto adjust axis for multiple sized browsers-->
+
+<div class="jumbotron">
+    <h1>Colors Conference Registration Form</h1>  <!--GIANT HEADER-->
+</div>
+
+<div class="center">  <!--ROW-->
+
+
+<div class="col-md-9">
+    <div class="mx-5">
+    <p>
+   <h2 class="section-header"> Please fill out the form to register</h2> <br> <!--BR line break--> 
+    </p>
+    </div>    
+</div>
+
+    <div class="col-md-7"><!--MARGING "L" "R" OR MX-5 'AXIS MARGIN'-->
+    <form> 
+    <div>
+        <label for="name">Name</label > <!--Name lable-->
+        <input name="name" type="text" id="name" class="form-control" maxlength="70" required style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;"> <br> <!-- max character input is 70-->
+        
+        <label for="password">Password</label> <!--Password lable-->
+        <input name="password" type="password" id="Password" class="form-control" required style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;"> <br>
+        
+        <label for="email">Email</label> <!--Email lable-->
+        <input name="email" type="email" id="email" class="form-control" required style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;"> <br>
+        
+        <label for="T-shirt">T-shirt size</label> <!--DROP DOWN MENU lable-->
+        <select id="T-shirt Size" style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;">
+            <option name="Select-size" value="Select Size"></option>
+            <option name="Small" value="Small">Small</option>
+            <option name="Medium" value="Medium">Medium</option>
+            <option name="Large" value="Large">Large</option>
+            </select required> <br> <br>
+
+            <label for="date">Birth Date</label>  <!--BIRTHDATE SELECTOR lable-->
+            <input name="date" type="date" id="birthdate" class="form-control" required style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;"> <br> <!-- max character input is 70-->
+    
+
+            <div form  class="form-text">
+                <p> Receive email?</p>  <!--RADIO BUTTONS lable-->
+                <input type="radio" id="yes" name="email-selection" value="yes">  <!--NAME="" CLASS NEEDS TO BE IDENTICAL FOR RADIO TO WORK-->
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="email-selection" value="no"> <!--Name="" NEEDS to be the same for radio to work -->
+                <label for="no">No</label><br>
+            </form>
+            </div>
+            <br> <br>  <!--DOUBLE <br> FOR COSMETIC-->
+        
+
+            <div class="sections">
+                <h2> Select a Session Time</h2>
+                <form>   <!--CHECK BOX lable-->
+                    <input type="checkbox" id="Session Selection" name="Session Selection" value="AM Session">
+                    <label for="AM Session">AM Session</label>
+
+                    <input type="checkbox" id="Session Selection" name="Session Selection" value="AM Session">
+                    <label for="PM Session">PM Session</label><br>
+
+                </form>
+            </div>
+
+            <div> <br>
+                <h2 class="section-header">Enter Special Requests Here:</h2>   <!--TEXT BOX lable-->
+                <textarea name="text-area" rows="7" cols="70"   
+                style="background-color: rgb(136, 203, 241); border: 3px solid #1f097e;"></textarea>
+                 <br> <!--CUSTOM SIZE TEXT BOX **COLS = CHARATERS-->
+
+
+            </div>
+
+<br>
+    </div>
+
+    
+
+
+
+    <div class="form-check"></div>  <!--SUBMIT BUTTON PRIMARY  lable-->
+        <input type="submit" class="btn btn-outline-success mt-10"></button>
+    </div>
+
+</div> <!--END OF 2ND COLUMN-->
+
+
+</form>
+</div>  <!--   END OF ROW  -->
+
+
+
+</body>
+</html>
